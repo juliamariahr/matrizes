@@ -11,6 +11,7 @@ O arquivo `matrizes.py` permite:
 - Multiplicacao de duas matrizes
 - Calculo da transposta de uma matriz
 - Calculo da inversa de uma matriz quadrada (metodo de Gauss-Jordan)
+- Resolucao de sistemas lineares com classificacao SPD, SPI ou SI
 
 ## Como executar
 
@@ -42,3 +43,6 @@ Exemplo de uma linha com 3 colunas:
 - Para multiplicacao entre matrizes, o numero de colunas da matriz A deve ser igual ao numero de linhas da matriz B.
 - A inversa so existe para matrizes quadradas e inversiveis.
 - Em caso de entrada invalida, o programa mostra mensagens de erro e permite tentar novamente.
+- Na opcao de sistema linear, informe primeiro a quantidade de equacoes e variaveis.
+- Em seguida, cada equacao deve conter os coeficientes e o termo independente separados por espaco.
+- SPD significa Sistema Possivel e Determinado, SPI significa Sistema Possivel e Indeterminado e SI significa Sistema Impossivel.
